@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Momemtum App</title>
+    <script defer src="js/images.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/todo.js"></script>
+    <script defer src="js/weather.js"></script>
+  </head>
+  <body>
+    <div class="center size">
+      <form id="login-form" class="loginForm">
+        <input type="text" placeholder="아이디를 입력해주세요." required />
+      </form>
+    </div>
+    <div class="center">
+      <div id="contents" class="hidden">
+        <h1 id="greeting" class="hello"></h1>
+        <h2 id="clock" class="time">00:00:00</h2>
+        <form id="todo-form">
+          <input type="text" placeholder="오늘의 할일은?" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="weather" class="weatherAPI">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

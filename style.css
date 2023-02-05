@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-size: 20px;
+}
+
+input {
+  text-align: center;
+  padding: 10px 8px;
+  outline: none;
+  border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.loginForm {
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.time {
+  color: #222222;
+  font-size: 150px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.hello {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.weatherAPI {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #222222;
+  color: #ffffff;
+  border-radius: 0 0 0 15px;
+}
